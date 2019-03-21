@@ -1,0 +1,19 @@
+{
+  "name": "tgcharts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "http-server -a 0.0.0.0 -p 8080",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "eventemitter3": "^3.1.0",
+    "http-server": "^0.11.1",
+    "rollup": "^1.6.0",
+    "rollup-plugin-babel-minify": "^8.0.0",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
