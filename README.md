@@ -12,5 +12,11 @@ Once upon a time I was sitting and reading a book, suddenly telegram dropped to 
 * Axis ticks (ticks labels) is rendered as <text> in SVG layer, because.
 * Controls is DOM checkboxes with some animations
 * Sizes of elements will vary on desktop and mobile devices. On desktop you will have horizontal rectangle, on handheld - vertical
-## Dependencies
-Empty! Only vanilla js, only hardcore
+### Dependencies
+* Empty! Only vanilla js, only hardcore
+### Size
+* Styles - 2 kB
+* Code - 16 kB
+* Total: 18 kB
+### Efficiency
+* Less than 1ms to render a frame (according to performance meter in chrome dev tools)
